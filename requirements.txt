@@ -1,6 +1,8 @@
 # Python requirements for CBETool replication package
 # Compatible with Python 3.9+
 
+ipykernel
+
 # Core data analysis libraries
 pandas>=1.5.0
 numpy>=1.21.0
@@ -12,6 +14,8 @@ statsmodels>=0.13.0
 # Visualization
 matplotlib>=3.5.0
 plot-likert>=0.3.0
+
+ipython-sql>=0.5.0
 
 # Standard library packages (included with Python)
 # os, uuid - no installation required
