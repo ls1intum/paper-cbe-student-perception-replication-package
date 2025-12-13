@@ -1,6 +1,6 @@
-# CBETool in Action: A Student Perspective on Competency-Based Education at Scale - Replication Package
+# Investigating Student Interaction with Competency-Based CS Education - Replication Package
 
-This repository contains the complete replication package for the research paper **"CBETool in Action: A Student Perspective on Competency-Based Education at Scale"**. The package includes anonymized data, analysis pipelines, survey instruments, and all code necessary to reproduce the study's findings.
+This repository contains the complete replication package for the research paper **"Investigating Student Interaction with Competency-Based CS Education"**. The package includes anonymized data, analysis pipelines, survey instruments, and all code necessary to reproduce the study's findings.
 
 ## Repository Structure
 
@@ -62,7 +62,7 @@ This repository contains the complete replication package for the research paper
    ```bash
    python -m ipykernel install --user --name cbe-venv --display-name "Python (cbe-venv)"
    ```
-   and selecting the Kernel "Python (cbe-venv)".
+   and selecting the Kernel "Python (cbe-venv)" for each Analysis.
 
 ## Usage
 
