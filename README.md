@@ -34,9 +34,9 @@ This repository contains the complete replication package for the research paper
 
 ## Installation
 
-1. **Download the repository:**
+1. **Download the repository and the input data files**
 
-2. **Create and activate a virtual environment**
+2. **Create and activate a virtual environment:**
    ```bash
    python -m venv venv
    source venv/bin/activate
@@ -48,21 +48,7 @@ This repository contains the complete replication package for the research paper
    ```
 
 3. **Launch Jupyter:**
-   ```bash
-   jupyter notebook
-   ```
-   or
-   ```bash
-   jupyter lab
-   ```
-   or use an IDE like Visual Studio Code or JetBrains Dataspell.
-  
-4. **Select the right Python Interpreter**
-    Either select the Python Interpreter in the new virtual environment with the IDE or in the Jupyter Notebook  by opening a new terminal and running
-   ```bash
-   python -m ipykernel install --user --name cbe-venv --display-name "Python (cbe-venv)"
-   ```
-   and selecting the Kernel "Python (cbe-venv)" for each Analysis.
+   It is easiest to use an IDE like Visual Studio Code or JetBrains Dataspell to run the Notebooks.
 
 ## Usage
 
