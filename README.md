@@ -6,25 +6,25 @@ This repository contains the complete replication package for the research paper
 
 ```
 ├── data-processing/
-│   ├── data-anonymization-pipeline.ipynb    # Data anonymization process (transparency)
+│   ├── data-anonymization-pipeline.ipynb   # Data anonymization process (transparency)
 │   ├── data-pipeline-paper.ipynb           # Main analysis pipeline (run this)
 │   └── data/
 │       ├── 00_in/                          # Input directory for raw survey data
 │       ├── 01_anonymized/                  # Anonymized datasets (provided)
 │       └── 02_output/                      # Generated analysis outputs
 ├── survey/
-│   ├── pre/                               # Pre-survey UI documentation
+│   ├── pre/                                # Pre-survey UI documentation
 │   │   ├── 01_CBE.pdf
 │   │   ├── 02_Course.pdf
 │   │   └── 03_Demographics.pdf
-│   └── post/                              # Post-survey UI documentation
+│   └── post/                               # Post-survey UI documentation
 │       ├── 01_CBE.pdf
 │       ├── 02_Tool.pdf
 │       ├── 03_Course.pdf
 │       ├── 04_PreSurveyCheck.pdf
 │       └── 05_Demographics.pdf
 ├── requirements.txt                        # Python dependencies
-└── README.md                              # This file
+└── README.md                               # This file
 ```
 
 ## Prerequisites
